@@ -1,0 +1,4 @@
+- chatglm2-6b 文件夹中主要用来训练sql chatglm 的sql 的生成能力
+- 数据集处理代码路径sql_chtglm.ipynb
+- 模型全参数微调运行bash ds_train_finetune.sh (2卡A100 80G)
+- 最终模型权重保存位置ChatGLM2-6B/ptuning/output
